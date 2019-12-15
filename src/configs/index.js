@@ -13,3 +13,6 @@ export const COLORS = {
 };
 
 export const SERVER_DOMAIN = 'http://localhost:3030';
+export const ERRORS = {
+	LIST_NOT_FOUND: 'Not found'
+};

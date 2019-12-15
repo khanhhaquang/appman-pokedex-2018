@@ -11,7 +11,6 @@ const Content = props => {
 	const strPercentage = getStr(attacks.length);
 	const weakPercentage = getWeak(weaknesses.length);
 	const happyLevel = getHappy(hpPercentage, attacks, weaknesses.length) || 0;
-	console.log('happyLevel: ', happyLevel);
 
 	const renderHappiness = () => {
 		return [...Array(happyLevel)].map((item, index) => <CuteImg key={index} />);

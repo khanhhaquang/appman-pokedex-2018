@@ -26,7 +26,7 @@ const Styled = styled.footer`
 
 		span {
 			color: #ffffff;
-			font-size: 30px;
+			font-size: 50px;
 			font-weight: 700;
 		}
 	}

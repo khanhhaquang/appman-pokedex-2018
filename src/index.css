@@ -43,3 +43,8 @@ p,
 h1 {
   margin: 0;
 }
+
+input,
+input:focus {
+  outline: none;
+}

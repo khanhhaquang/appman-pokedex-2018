@@ -5,13 +5,13 @@ import Content from './children/content';
 import Action from './children/action';
 
 const Card = props => {
-	const { data } = props;
+	const { data, action, onClick } = props;
 
 	return (
 		<Styled>
 			<Avatar src={data.imageUrl} />
 			<Content {...data} />
-			<Action />
+			<Action action={action} onClick={onClick} />
 		</Styled>
 	);
 };
